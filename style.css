@@ -1,4 +1,25 @@
 .selfie {
   max-width: 60%;
 }
+
+.gitSvg {
+  width: 30%;
+  height: auto;
+}
+
+svg {
+  width: 30%;
+  height: auto;
+}
+
+.svgContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.gitA {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
