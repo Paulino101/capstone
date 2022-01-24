@@ -35,3 +35,10 @@ svg {
 .about {
   color: white;
 }
+
+// md breakpoint
+@include media-breakpoint-up(md) {
+  * {
+    color: red;
+  }
+}
