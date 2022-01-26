@@ -31,14 +31,32 @@ svg {
   position: absolute;
   z-index: 1;
 }
-
-.about {
-  color: white;
+.codeButtons {
+  display: flex;
+  justify-content: space-between;
+}
+// md breakpoint
+@media only screen and (min-width: 768px) {
+  .about > img {
+    width: 35%;
+  }
+  .gitA {
+    width: 43%;
+  }
+  .codeButtons {
+    justify-content: space-evenly;
+  }
 }
 
-// md breakpoint
-@include media-breakpoint-up(md) {
-  * {
-    color: red;
+// xl breakpoint
+@media only screen and (min-width: 1024px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  .codeButtons {
+    justify-content: center;
+  }
+  .codeButtons > a {
+    margin: 0.5rem;
   }
 }

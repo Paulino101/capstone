@@ -40,7 +40,42 @@ svg {
   z-index: 1;
 }
 
-.about {
-  color: white;
+.codeButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .about > img {
+    width: 35%;
+  }
+  .gitA {
+    width: 43%;
+  }
+  .codeButtons {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar-collapse {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .codeButtons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .codeButtons > a {
+    margin: 0.5rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
