@@ -38,14 +38,16 @@ svg {
 .skillsContainer {
   display: flex;
   justify-content: center;
+  text-align: center;
+}
+.skillsSvg {
+  width: 20%;
 }
 // .bootstrapSvg {
 //   width: 150px;
 //   height: 150px;
 // }
-.carousel-item > img {
-  width: 200px;
-}
+
 // md breakpoint
 @media only screen and (min-width: 768px) {
   .about > img {

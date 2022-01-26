@@ -56,10 +56,11 @@ svg {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
 }
 
-.carousel-item > img {
-  width: 200px;
+.skillsSvg {
+  width: 20%;
 }
 
 @media only screen and (min-width: 768px) {
