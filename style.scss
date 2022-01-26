@@ -35,6 +35,17 @@ svg {
   display: flex;
   justify-content: space-between;
 }
+.skillsContainer {
+  display: flex;
+  justify-content: center;
+}
+// .bootstrapSvg {
+//   width: 150px;
+//   height: 150px;
+// }
+.carousel-item > img {
+  width: 200px;
+}
 // md breakpoint
 @media only screen and (min-width: 768px) {
   .about > img {
@@ -64,5 +75,13 @@ svg {
   }
   .svgContainer {
     width: 70%;
+  }
+  .contact {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
