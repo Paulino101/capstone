@@ -53,10 +53,16 @@ svg {
   .navbar-collapse {
     justify-content: flex-end;
   }
+  .about > img {
+    width: 20%;
+  }
   .codeButtons {
     justify-content: center;
   }
   .codeButtons > a {
     margin: 0.5rem;
+  }
+  .svgContainer {
+    width: 70%;
   }
 }
